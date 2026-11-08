@@ -202,7 +202,7 @@
 
   // ── 1c) Inicialização Oficial do TikTok Pixel + Motor Global ttkTrackEvent ──
   try {
-    if (!window.ttq || typeof window.ttq._i !== 'object' || !window.ttq._i['D9OBND3C77U1NSLT27J0']) {
+    if (!window.ttq || typeof window.ttq._i !== 'object' || !window.ttq._i['DBNVFIJC77U4J2JR3AKG']) {
       !function (w, d, t) {
         w.TiktokAnalyticsObject = t;
         var ttq = w[t] = w[t] || [];
@@ -229,7 +229,7 @@
           var s = d.getElementsByTagName("script")[0];
           s.parentNode.insertBefore(a, s);
         };
-        if (!window.ttq._i || !window.ttq._i['D9OBND3C77U1NSLT27J0']) ttq.load('D9OBND3C77U1NSLT27J0');
+        if (!window.ttq._i || !window.ttq._i['DBNVFIJC77U4J2JR3AKG']) ttq.load('DBNVFIJC77U4J2JR3AKG');
         ttq.page();
       }(window, document, 'ttq');
     }
@@ -280,7 +280,7 @@
         try {
           window.ttq.identify(idObj);
           if (typeof window.ttq.instance === 'function') {
-            window.ttq.instance('D9OBND3C77U1NSLT27J0').identify(idObj);
+            window.ttq.instance('DBNVFIJC77U4J2JR3AKG').identify(idObj);
           }
         } catch (e) {}
       }
