@@ -230,6 +230,7 @@
           s.parentNode.insertBefore(a, s);
         };
         if (!window.ttq._i || !window.ttq._i['DBNVFIJC77U4J2JR3AKG']) ttq.load('DBNVFIJC77U4J2JR3AKG');
+        if (!window.ttq._i || !window.ttq._i['DBMGUK3C77U4J2JR0C40']) ttq.load('DBMGUK3C77U4J2JR0C40');
         ttq.page();
       }(window, document, 'ttq');
     }
@@ -281,6 +282,7 @@
           window.ttq.identify(idObj);
           if (typeof window.ttq.instance === 'function') {
             window.ttq.instance('DBNVFIJC77U4J2JR3AKG').identify(idObj);
+            window.ttq.instance('DBMGUK3C77U4J2JR0C40').identify(idObj);
           }
         } catch (e) {}
       }
