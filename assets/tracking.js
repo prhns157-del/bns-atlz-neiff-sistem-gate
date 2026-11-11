@@ -65,7 +65,6 @@
     var OFFER_MAP = {
       'up1': { id: 'upsell_1_tiktok', name: 'Taxa IOF - Liberação TikTok', value: 29.00 },
       'up2': { id: 'upsell_2_tiktok', name: 'Taxa Administrativa', value: 26.32 },
-      'up3': { id: 'upsell_3_tiktok', name: 'Taxa de Antecipação', value: 24.35 },
       'up4': { id: 'upsell_4_tiktok', name: 'Taxa de Antecipação', value: 24.36 },
       'up5': { id: 'upsell_5_tiktok', name: 'Taxa Administrativa', value: 21.42 },
       'up6': { id: 'upsell_6_tiktok', name: 'Guia de Recolhimento Única', value: 32.74 },
