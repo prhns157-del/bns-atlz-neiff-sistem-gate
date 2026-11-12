@@ -63,14 +63,14 @@
     var p = new URLSearchParams(window.location.search);
     var customTaxa = parseFloat(p.get('taxa') || '');
     var OFFER_MAP = {
-      'up1': { id: 'upsell_1_tiktok', name: 'Taxa IOF - Liberação TikTok', value: 29.00 },
-      'up2': { id: 'upsell_2_tiktok', name: 'Taxa Administrativa', value: 26.32 },
-      'up4': { id: 'upsell_4_tiktok', name: 'Taxa de Antecipação', value: 24.36 },
-      'up5': { id: 'upsell_5_tiktok', name: 'Taxa Administrativa', value: 21.42 },
-      'up6': { id: 'upsell_6_tiktok', name: 'Guia de Recolhimento Única', value: 32.74 },
-      'up7': { id: 'upsell_7_tiktok', name: 'Imposto 27% - Estorno', value: 24.42 },
-      'up8': { id: 'upsell_8_tiktok', name: 'Taxa Administrativa', value: 38.94 },
-      'up9': { id: 'upsell_9_tiktok', name: 'Guia de Regularização', value: 46.31 },
+      'up1': { id: 'upsell_1_tiktok', name: 'Taxa IOF - Liberação TikTok', value: 21.11 },
+      'up2': { id: 'upsell_2_tiktok', name: 'Taxa Administrativa', value: 18.43 },
+      'up4': { id: 'upsell_4_tiktok', name: 'Taxa de Antecipação', value: 24.55 },
+      'up5': { id: 'upsell_5_tiktok', name: 'Taxa Administrativa', value: 19.88 },
+      'up6': { id: 'upsell_6_tiktok', name: 'Guia de Recolhimento Única', value: 22.02 },
+      'up7': { id: 'upsell_7_tiktok', name: 'Imposto 27% - Estorno', value: 17.98 },
+      'up8': { id: 'upsell_8_tiktok', name: 'Taxa Administrativa', value: 26.43 },
+      'up9': { id: 'upsell_9_tiktok', name: 'Guia de Regularização', value: 25.76 },
       'back': { id: 'taxa_confirmacao_desconto_tiktok', name: 'Taxa de Confirmacao Desconto TikTok', value: 12.44 }
     };
     for (var k in OFFER_MAP) {
@@ -81,7 +81,7 @@
     return {
       id: 'taxa_confirmacao_tiktok',
       name: 'Taxa de Confirmacao TikTok',
-      value: (customTaxa && customTaxa > 0) ? customTaxa : 13.92
+      value: (customTaxa && customTaxa > 0) ? customTaxa : 36.50
     };
   }
 
